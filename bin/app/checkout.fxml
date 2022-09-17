@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.checkout_controller">
+   <children>
+      <Pane layoutX="600.0" layoutY="400.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3E3E3E;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="placeOrder" layoutX="401.0" layoutY="346.0" mnemonicParsing="false" onAction="#switchToOrderPlaced" text="Place order" />
+            <Label alignment="TOP_CENTER" layoutX="370.0" layoutY="14.0" text="Checkout" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+            <Button fx:id="cartButton" layoutX="420.0" layoutY="65.0" mnemonicParsing="false" onAction="#switchToCart" text="Cart" />
+            <Label fx:id="numAhead" layoutX="347.0" layoutY="124.0" text="Currently in the line ahead of you: " textFill="WHITE" />
+            <Label fx:id="expectedWait" layoutX="347.0" layoutY="151.0" text="Expected wait: " textFill="WHITE" />
+            <TextField fx:id="phoneNum" layoutX="26.0" layoutY="26.0" prefHeight="25.0" prefWidth="223.0" promptText="Phone Number" />
+            <TextField fx:id="firstName" layoutX="26.0" layoutY="65.0" prefHeight="25.0" prefWidth="223.0" promptText="First Name" />
+            <TextField fx:id="lastName" layoutX="26.0" layoutY="106.0" prefHeight="25.0" prefWidth="223.0" promptText="Last Name" />
+            <TextField fx:id="expDate" layoutX="26.0" layoutY="187.0" prefHeight="25.0" prefWidth="223.0" promptText="Exp. Date" />
+            <TextField fx:id="securityCode" layoutX="26.0" layoutY="228.0" prefHeight="25.0" prefWidth="223.0" promptText="Security Code" />
+            <TextField fx:id="billingAddress" layoutX="26.0" layoutY="270.0" prefHeight="25.0" prefWidth="223.0" promptText="Billing Address" />
+            <CheckBox fx:id="saveInfo" layoutX="26.0" layoutY="307.0" mnemonicParsing="false" text="Save my information for next time" textFill="WHITE" />
+            <TextField fx:id="cardNum" layoutX="26.0" layoutY="146.0" prefHeight="25.0" prefWidth="223.0" promptText="Card Number" />
+            <TextField fx:id="couponCode" layoutX="26.0" layoutY="335.0" prefHeight="25.0" prefWidth="166.0" promptText="Coupon Code" />
+            <Label fx:id="total" layoutX="347.0" layoutY="177.0" text="Total: " textFill="WHITE" />
+            <Button fx:id="enterCoupon" layoutX="206.0" layoutY="335.0" mnemonicParsing="false" onAction="#checkCoupon" text="Enter" />
+            <Label fx:id="couponValid" layoutX="26.0" layoutY="367.0" text=" " textFill="WHITE" />
+            <Button fx:id="doIHaveCoupon" layoutX="374.0" layoutY="303.0" mnemonicParsing="false" onAction="#doIHaveCoup" text="Do I Have a Coupon?" />
+         </children></Pane>
+   </children>
+</AnchorPane>

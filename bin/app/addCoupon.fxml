@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3E3E3E;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.addCouponController">
+   <children>
+      <TextField fx:id="couponCode" layoutX="226.0" layoutY="75.0" promptText="Enter Code" />
+      <TextField fx:id="discountAmount" layoutX="226.0" layoutY="135.0" promptText="Enter Amount" />
+      <Text fill="WHITE" layoutX="126.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coupon Code:" />
+      <Text fill="WHITE" layoutX="152.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discount:" />
+      <TextField fx:id="expiryDate" layoutX="226.0" layoutY="200.0" promptText="Enter Expiry Date" />
+      <Text fill="WHITE" layoutX="119.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expiration Date:" />
+      <Text fill="WHITE" layoutX="24.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add A Coupon">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button layoutX="247.0" layoutY="262.0" mnemonicParsing="false" onAction="#createCoupon" prefHeight="25.0" prefWidth="106.0" text="Add Coupon" />
+      <Button layoutX="248.0" layoutY="324.0" mnemonicParsing="false" onAction="#changeScreenEmployeeHome" prefHeight="25.0" prefWidth="106.0" text="Cancel" />
+   </children>
+</AnchorPane>

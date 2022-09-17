@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3E3E3E;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.employeeAddController">
+   <children>
+      <Text fill="WHITE" layoutX="39.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Menu Item:" textAlignment="RIGHT" wrappingWidth="108.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="45.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List Ingredients:" textAlignment="RIGHT" wrappingWidth="102.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="ListTheIngredients" layoutX="154.0" layoutY="85.0" prefHeight="145.0" prefWidth="200.0" />
+      <TextField fx:id="NewMenuItemN" layoutX="154.0" layoutY="37.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button id="GoBackButton" layoutX="436.0" layoutY="185.0" mnemonicParsing="false" onAction="#changeScreen" text="Go Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateNewItem" layoutX="436.0" layoutY="144.0" mnemonicParsing="false" onAction="#createNewItem" prefHeight="30.0" prefWidth="68.0" text="Create">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="45.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Image File-Path:" textAlignment="RIGHT" wrappingWidth="102.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField id="ImageFilePath" fx:id="NewItemFilepath" layoutX="154.0" layoutY="309.0" prefHeight="25.0" prefWidth="200.0" />
+      <ImageView fitHeight="131.0" fitWidth="242.0" layoutX="349.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/flogo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="NewItemPrice" layoutX="154.0" layoutY="259.0" prefHeight="25.0" prefWidth="200.0" />
+      <Text fill="WHITE" layoutX="36.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" textAlignment="RIGHT" wrappingWidth="108.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

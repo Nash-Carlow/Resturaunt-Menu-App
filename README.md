@@ -1,0 +1,2 @@
+# Resturaunt-Menu-App
+Mock app that simulates a customer ordering food from a restaurant. The customer can look at the menu, the ingredients in each item, order however they like. The app allows customers to save their login information and payment information for the next time they use the app. This app also allows customization from the restaurant's side by logging in with an admin account that lets them edit the menu and add new menu items.

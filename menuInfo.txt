@@ -1,0 +1,6 @@
+Pepperoni Pizza#Pizza Dough, Mozzarella Cheese, Pepperoni, Marinara Sauce, Pineapple#8#F:\\VSCode\\Java Projects\\loginTest\\src\\Images\\pizza_PNG7108.png
+Boneless Wings#Chicken, Garlic Powder, Buffalo Sauce, Black Pepper, Honey#8#F:\\VSCode\\Java Projects\\loginTest\\src\\Images\\Boneless.png
+Traditional Wings#Chicken, Garlic Powder, Buffalo Sauce, Black Pepper, Honey#7#F:\\VSCode\\Java Projects\\loginTest\\src\\Images\\traditional.png
+Chicken Parmesan#Chicken Breasts, Bread Crumbs, Garlic Powder, Eggs, Flour, Parmesan, Marinara, Salt and Pepper, Vegetable Oil, Italian Seasoning, Spaghetti#12#F:\\VSCode\\Java Projects\\loginTest\\src\\Images\\chicken_parm_shot.png
+Ceasar Salad#Lettuce, Cheese, Egg, Crouton, Mayo, Parmesan, Bread, Garlic, Worcestershire Sauce, Anchovies, Dijon Mustard, Olive Oil, Salt and Pepper #5#F:\\VSCode\\Java Projects\\loginTest\\src\\Images\\ceasar.png
+French Toast#test#5#F:\\VSCode\\Java Projects\\loginTest\\src\\Images\\french.png
